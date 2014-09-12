@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3A812019BF0489000412A2 /* UserReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A811F19BF0489000412A2 /* UserReviewViewController.m */; };
+		5D3A812319BFB7E5000412A2 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A812219BFB7E5000412A2 /* User.m */; };
+		5D3A812619BFD34F000412A2 /* GameUserReviewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A812519BFD34F000412A2 /* GameUserReviewTableViewCell.m */; };
+		5D3A812919BFE24C000412A2 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A812819BFE24C000412A2 /* Database.m */; };
+		5D3A812B19BFEAB1000412A2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A812A19BFEAB1000412A2 /* libsqlite3.dylib */; };
+		5DA59E2C19BAD5620043E0A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA59E2B19BAD5620043E0A7 /* Foundation.framework */; };
+		5DA59E2E19BAD5620043E0A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA59E2D19BAD5620043E0A7 /* CoreGraphics.framework */; };
+		5DA59E3019BAD5620043E0A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA59E2F19BAD5620043E0A7 /* UIKit.framework */; };
+		5DA59E3619BAD5630043E0A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DA59E3419BAD5630043E0A7 /* InfoPlist.strings */; };
+		5DA59E3819BAD5630043E0A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA59E3719BAD5630043E0A7 /* main.m */; };
+		5DA59E3C19BAD5630043E0A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA59E3B19BAD5630043E0A7 /* AppDelegate.m */; };
+		5DA59E3F19BAD5630043E0A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA59E3D19BAD5630043E0A7 /* Main.storyboard */; };
+		5DA59E4419BAD5630043E0A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA59E4319BAD5630043E0A7 /* Images.xcassets */; };
+		5DA59E4B19BAD5630043E0A7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA59E4A19BAD5630043E0A7 /* XCTest.framework */; };
+		5DA59E4C19BAD5630043E0A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA59E2B19BAD5620043E0A7 /* Foundation.framework */; };
+		5DA59E4D19BAD5630043E0A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA59E2F19BAD5620043E0A7 /* UIKit.framework */; };
+		5DA59E5519BAD5630043E0A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DA59E5319BAD5630043E0A7 /* InfoPlist.strings */; };
+		5DA59E5719BAD5630043E0A7 /* Gogo_GamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA59E5619BAD5630043E0A7 /* Gogo_GamesTests.m */; };
+		5DA59E6619BEA3D50043E0A7 /* DarkSoul2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA59E6519BEA3D50043E0A7 /* DarkSoul2.png */; };
+		5DA59E6919BEA53A0043E0A7 /* BioShock2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA59E6719BEA53A0043E0A7 /* BioShock2.png */; };
+		5DA59E6A19BEA53A0043E0A7 /* GranTurismo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA59E6819BEA53A0043E0A7 /* GranTurismo5.png */; };
+		5DA59E6D19BEAFA30043E0A7 /* DynamicGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA59E6C19BEAFA30043E0A7 /* DynamicGameViewController.m */; };
+		5DA59E7019BEB2BE0043E0A7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA59E6F19BEB2BE0043E0A7 /* GameViewController.m */; };
+		5DA59E7219BEB7A90043E0A7 /* Background-LowerLayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA59E7119BEB7A90043E0A7 /* Background-LowerLayer.png */; };
+		5DA59E7419BEB7BA0043E0A7 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA59E7319BEB7BA0043E0A7 /* Logo.png */; };
+		5DA59E7719BEC1AD0043E0A7 /* CollectionViewLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA59E7619BEC1AD0043E0A7 /* CollectionViewLabelCell.m */; };
+		5DA59E7919BEC8B60043E0A7 /* games.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DA59E7819BEC8B60043E0A7 /* games.json */; };
+		5DA59E7B19BEE6330043E0A7 /* PES2012.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA59E7A19BEE6330043E0A7 /* PES2012.png */; };
+		5DA59E7D19BEE6450043E0A7 /* Uncharted.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA59E7C19BEE6450043E0A7 /* Uncharted.png */; };
+		5DA59E8019BEF9C40043E0A7 /* GameReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA59E7F19BEF9C40043E0A7 /* GameReviewViewController.m */; };
+		5DCCA9FE19C28962007E3DAE /* Background-LowerLayer-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DCCA9FD19C28962007E3DAE /* Background-LowerLayer-1.png */; };
+		5DCCAA0019C28B02007E3DAE /* Logo-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DCCA9FF19C28B02007E3DAE /* Logo-1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DA59E4E19BAD5630043E0A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DA59E2019BAD5620043E0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DA59E2719BAD5620043E0A7;
+			remoteInfo = "Gogo Games";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D3A811E19BF0489000412A2 /* UserReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserReviewViewController.h; path = "Gogo Games/UserReviewViewController.h"; sourceTree = "<group>"; };
+		5D3A811F19BF0489000412A2 /* UserReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserReviewViewController.m; path = "Gogo Games/UserReviewViewController.m"; sourceTree = "<group>"; };
+		5D3A812119BFB7E5000412A2 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = "Gogo Games/User.h"; sourceTree = "<group>"; };
+		5D3A812219BFB7E5000412A2 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = "Gogo Games/User.m"; sourceTree = "<group>"; };
+		5D3A812419BFD34F000412A2 /* GameUserReviewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameUserReviewTableViewCell.h; path = "Gogo Games/GameUserReviewTableViewCell.h"; sourceTree = "<group>"; };
+		5D3A812519BFD34F000412A2 /* GameUserReviewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameUserReviewTableViewCell.m; path = "Gogo Games/GameUserReviewTableViewCell.m"; sourceTree = "<group>"; };
+		5D3A812719BFE24C000412A2 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Database.h; path = "Gogo Games/Database.h"; sourceTree = "<group>"; };
+		5D3A812819BFE24C000412A2 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Database.m; path = "Gogo Games/Database.m"; sourceTree = "<group>"; };
+		5D3A812A19BFEAB1000412A2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		5DA59E2819BAD5620043E0A7 /* Gogo Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gogo Games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA59E2B19BAD5620043E0A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DA59E2D19BAD5620043E0A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DA59E2F19BAD5620043E0A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DA59E3319BAD5630043E0A7 /* Gogo Games-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gogo Games-Info.plist"; sourceTree = "<group>"; };
+		5DA59E3519BAD5630043E0A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DA59E3719BAD5630043E0A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DA59E3919BAD5630043E0A7 /* Gogo Games-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gogo Games-Prefix.pch"; sourceTree = "<group>"; };
+		5DA59E3A19BAD5630043E0A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Gogo Games/AppDelegate.h"; sourceTree = "<group>"; };
+		5DA59E3B19BAD5630043E0A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Gogo Games/AppDelegate.m"; sourceTree = "<group>"; };
+		5DA59E3E19BAD5630043E0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DA59E4319BAD5630043E0A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5DA59E4919BAD5630043E0A7 /* Gogo GamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gogo GamesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA59E4A19BAD5630043E0A7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5DA59E5219BAD5630043E0A7 /* Gogo GamesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gogo GamesTests-Info.plist"; sourceTree = "<group>"; };
+		5DA59E5419BAD5630043E0A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DA59E5619BAD5630043E0A7 /* Gogo_GamesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gogo_GamesTests.m; sourceTree = "<group>"; };
+		5DA59E6519BEA3D50043E0A7 /* DarkSoul2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DarkSoul2.png; path = ../DarkSoul2.png; sourceTree = "<group>"; };
+		5DA59E6719BEA53A0043E0A7 /* BioShock2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BioShock2.png; sourceTree = "<group>"; };
+		5DA59E6819BEA53A0043E0A7 /* GranTurismo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GranTurismo5.png; sourceTree = "<group>"; };
+		5DA59E6B19BEAFA30043E0A7 /* DynamicGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicGameViewController.h; sourceTree = "<group>"; };
+		5DA59E6C19BEAFA30043E0A7 /* DynamicGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicGameViewController.m; sourceTree = "<group>"; };
+		5DA59E6E19BEB2BE0043E0A7 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = "Gogo Games/GameViewController.h"; sourceTree = "<group>"; };
+		5DA59E6F19BEB2BE0043E0A7 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = "Gogo Games/GameViewController.m"; sourceTree = "<group>"; };
+		5DA59E7119BEB7A90043E0A7 /* Background-LowerLayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background-LowerLayer.png"; sourceTree = "<group>"; };
+		5DA59E7319BEB7BA0043E0A7 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		5DA59E7519BEC1AD0043E0A7 /* CollectionViewLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewLabelCell.h; path = "Gogo Games/CollectionViewLabelCell.h"; sourceTree = "<group>"; };
+		5DA59E7619BEC1AD0043E0A7 /* CollectionViewLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewLabelCell.m; path = "Gogo Games/CollectionViewLabelCell.m"; sourceTree = "<group>"; };
+		5DA59E7819BEC8B60043E0A7 /* games.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = games.json; path = ../games.json; sourceTree = "<group>"; };
+		5DA59E7A19BEE6330043E0A7 /* PES2012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PES2012.png; sourceTree = "<group>"; };
+		5DA59E7C19BEE6450043E0A7 /* Uncharted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uncharted.png; sourceTree = "<group>"; };
+		5DA59E7E19BEF9C40043E0A7 /* GameReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameReviewViewController.h; path = "Gogo Games/GameReviewViewController.h"; sourceTree = "<group>"; };
+		5DA59E7F19BEF9C40043E0A7 /* GameReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameReviewViewController.m; path = "Gogo Games/GameReviewViewController.m"; sourceTree = "<group>"; };
+		5DCCA9FD19C28962007E3DAE /* Background-LowerLayer-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Background-LowerLayer-1.png"; path = "../Background-LowerLayer-1.png"; sourceTree = "<group>"; };
+		5DCCA9FF19C28B02007E3DAE /* Logo-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Logo-1.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DA59E2519BAD5620043E0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3A812B19BFEAB1000412A2 /* libsqlite3.dylib in Frameworks */,
+				5DA59E2E19BAD5620043E0A7 /* CoreGraphics.framework in Frameworks */,
+				5DA59E3019BAD5620043E0A7 /* UIKit.framework in Frameworks */,
+				5DA59E2C19BAD5620043E0A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DA59E4619BAD5630043E0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA59E4B19BAD5630043E0A7 /* XCTest.framework in Frameworks */,
+				5DA59E4D19BAD5630043E0A7 /* UIKit.framework in Frameworks */,
+				5DA59E4C19BAD5630043E0A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E03C86619C32CB1000CBCEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DA59E6B19BEAFA30043E0A7 /* DynamicGameViewController.h */,
+				5DA59E6C19BEAFA30043E0A7 /* DynamicGameViewController.m */,
+				5DA59E6E19BEB2BE0043E0A7 /* GameViewController.h */,
+				5DA59E6F19BEB2BE0043E0A7 /* GameViewController.m */,
+				5DA59E7E19BEF9C40043E0A7 /* GameReviewViewController.h */,
+				5DA59E7F19BEF9C40043E0A7 /* GameReviewViewController.m */,
+				5D3A811E19BF0489000412A2 /* UserReviewViewController.h */,
+				5D3A811F19BF0489000412A2 /* UserReviewViewController.m */,
+				5DA59E7519BEC1AD0043E0A7 /* CollectionViewLabelCell.h */,
+				5DA59E7619BEC1AD0043E0A7 /* CollectionViewLabelCell.m */,
+				5D3A812419BFD34F000412A2 /* GameUserReviewTableViewCell.h */,
+				5D3A812519BFD34F000412A2 /* GameUserReviewTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4E03C86719C32CBD000CBCEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D3A812119BFB7E5000412A2 /* User.h */,
+				5D3A812219BFB7E5000412A2 /* User.m */,
+				5D3A812719BFE24C000412A2 /* Database.h */,
+				5D3A812819BFE24C000412A2 /* Database.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4E03C86819C32CD3000CBCEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5DA59E3A19BAD5630043E0A7 /* AppDelegate.h */,
+				5DA59E3B19BAD5630043E0A7 /* AppDelegate.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5DA59E1F19BAD5620043E0A7 = {
+			isa = PBXGroup;
+			children = (
+				4E03C86819C32CD3000CBCEB /* Controller */,
+				4E03C86719C32CBD000CBCEB /* Model */,
+				4E03C86619C32CB1000CBCEB /* View */,
+				5DA59E3119BAD5630043E0A7 /* Gogo Games */,
+				5DA59E5019BAD5630043E0A7 /* Gogo GamesTests */,
+				5DA59E2A19BAD5620043E0A7 /* Frameworks */,
+				5DA59E2919BAD5620043E0A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DA59E2919BAD5620043E0A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DA59E2819BAD5620043E0A7 /* Gogo Games.app */,
+				5DA59E4919BAD5630043E0A7 /* Gogo GamesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DA59E2A19BAD5620043E0A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D3A812A19BFEAB1000412A2 /* libsqlite3.dylib */,
+				5DA59E2B19BAD5620043E0A7 /* Foundation.framework */,
+				5DA59E2D19BAD5620043E0A7 /* CoreGraphics.framework */,
+				5DA59E2F19BAD5620043E0A7 /* UIKit.framework */,
+				5DA59E4A19BAD5630043E0A7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DA59E3119BAD5630043E0A7 /* Gogo Games */ = {
+			isa = PBXGroup;
+			children = (
+				5DA59E6019BE92AC0043E0A7 /* Resources */,
+				5DA59E3D19BAD5630043E0A7 /* Main.storyboard */,
+				5DA59E4319BAD5630043E0A7 /* Images.xcassets */,
+				5DA59E3219BAD5630043E0A7 /* Supporting Files */,
+			);
+			path = "Gogo Games";
+			sourceTree = "<group>";
+		};
+		5DA59E3219BAD5630043E0A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DA59E3319BAD5630043E0A7 /* Gogo Games-Info.plist */,
+				5DA59E3419BAD5630043E0A7 /* InfoPlist.strings */,
+				5DA59E3719BAD5630043E0A7 /* main.m */,
+				5DA59E3919BAD5630043E0A7 /* Gogo Games-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DA59E5019BAD5630043E0A7 /* Gogo GamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DA59E5619BAD5630043E0A7 /* Gogo_GamesTests.m */,
+				5DA59E5119BAD5630043E0A7 /* Supporting Files */,
+			);
+			path = "Gogo GamesTests";
+			sourceTree = "<group>";
+		};
+		5DA59E5119BAD5630043E0A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DA59E5219BAD5630043E0A7 /* Gogo GamesTests-Info.plist */,
+				5DA59E5319BAD5630043E0A7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DA59E6019BE92AC0043E0A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DA59E7819BEC8B60043E0A7 /* games.json */,
+				5DA59E7119BEB7A90043E0A7 /* Background-LowerLayer.png */,
+				5DCCA9FD19C28962007E3DAE /* Background-LowerLayer-1.png */,
+				5DA59E7319BEB7BA0043E0A7 /* Logo.png */,
+				5DCCA9FF19C28B02007E3DAE /* Logo-1.jpg */,
+				5DA59E6719BEA53A0043E0A7 /* BioShock2.png */,
+				5DA59E6519BEA3D50043E0A7 /* DarkSoul2.png */,
+				5DA59E6819BEA53A0043E0A7 /* GranTurismo5.png */,
+				5DA59E7C19BEE6450043E0A7 /* Uncharted.png */,
+				5DA59E7A19BEE6330043E0A7 /* PES2012.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DA59E2719BAD5620043E0A7 /* Gogo Games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DA59E5A19BAD5630043E0A7 /* Build configuration list for PBXNativeTarget "Gogo Games" */;
+			buildPhases = (
+				5DA59E2419BAD5620043E0A7 /* Sources */,
+				5DA59E2519BAD5620043E0A7 /* Frameworks */,
+				5DA59E2619BAD5620043E0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gogo Games";
+			productName = "Gogo Games";
+			productReference = 5DA59E2819BAD5620043E0A7 /* Gogo Games.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DA59E4819BAD5630043E0A7 /* Gogo GamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DA59E5D19BAD5630043E0A7 /* Build configuration list for PBXNativeTarget "Gogo GamesTests" */;
+			buildPhases = (
+				5DA59E4519BAD5630043E0A7 /* Sources */,
+				5DA59E4619BAD5630043E0A7 /* Frameworks */,
+				5DA59E4719BAD5630043E0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DA59E4F19BAD5630043E0A7 /* PBXTargetDependency */,
+			);
+			name = "Gogo GamesTests";
+			productName = "Gogo GamesTests";
+			productReference = 5DA59E4919BAD5630043E0A7 /* Gogo GamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DA59E2019BAD5620043E0A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Smallville;
+				TargetAttributes = {
+					5DA59E2719BAD5620043E0A7 = {
+						DevelopmentTeam = 2A8K5J4XEF;
+					};
+					5DA59E4819BAD5630043E0A7 = {
+						TestTargetID = 5DA59E2719BAD5620043E0A7;
+					};
+				};
+			};
+			buildConfigurationList = 5DA59E2319BAD5620043E0A7 /* Build configuration list for PBXProject "Gogo Games" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DA59E1F19BAD5620043E0A7;
+			productRefGroup = 5DA59E2919BAD5620043E0A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DA59E2719BAD5620043E0A7 /* Gogo Games */,
+				5DA59E4819BAD5630043E0A7 /* Gogo GamesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DA59E2619BAD5620043E0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA59E7D19BEE6450043E0A7 /* Uncharted.png in Resources */,
+				5DA59E6919BEA53A0043E0A7 /* BioShock2.png in Resources */,
+				5DA59E7919BEC8B60043E0A7 /* games.json in Resources */,
+				5DA59E4419BAD5630043E0A7 /* Images.xcassets in Resources */,
+				5DA59E7419BEB7BA0043E0A7 /* Logo.png in Resources */,
+				5DCCAA0019C28B02007E3DAE /* Logo-1.jpg in Resources */,
+				5DCCA9FE19C28962007E3DAE /* Background-LowerLayer-1.png in Resources */,
+				5DA59E3619BAD5630043E0A7 /* InfoPlist.strings in Resources */,
+				5DA59E3F19BAD5630043E0A7 /* Main.storyboard in Resources */,
+				5DA59E6A19BEA53A0043E0A7 /* GranTurismo5.png in Resources */,
+				5DA59E6619BEA3D50043E0A7 /* DarkSoul2.png in Resources */,
+				5DA59E7219BEB7A90043E0A7 /* Background-LowerLayer.png in Resources */,
+				5DA59E7B19BEE6330043E0A7 /* PES2012.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DA59E4719BAD5630043E0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA59E5519BAD5630043E0A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DA59E2419BAD5620043E0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3A812319BFB7E5000412A2 /* User.m in Sources */,
+				5D3A812019BF0489000412A2 /* UserReviewViewController.m in Sources */,
+				5DA59E8019BEF9C40043E0A7 /* GameReviewViewController.m in Sources */,
+				5DA59E7019BEB2BE0043E0A7 /* GameViewController.m in Sources */,
+				5DA59E3C19BAD5630043E0A7 /* AppDelegate.m in Sources */,
+				5DA59E7719BEC1AD0043E0A7 /* CollectionViewLabelCell.m in Sources */,
+				5D3A812919BFE24C000412A2 /* Database.m in Sources */,
+				5DA59E6D19BEAFA30043E0A7 /* DynamicGameViewController.m in Sources */,
+				5D3A812619BFD34F000412A2 /* GameUserReviewTableViewCell.m in Sources */,
+				5DA59E3819BAD5630043E0A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DA59E4519BAD5630043E0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA59E5719BAD5630043E0A7 /* Gogo_GamesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DA59E4F19BAD5630043E0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DA59E2719BAD5620043E0A7 /* Gogo Games */;
+			targetProxy = 5DA59E4E19BAD5630043E0A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DA59E3419BAD5630043E0A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DA59E3519BAD5630043E0A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5DA59E3D19BAD5630043E0A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DA59E3E19BAD5630043E0A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DA59E5319BAD5630043E0A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DA59E5419BAD5630043E0A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DA59E5819BAD5630043E0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DA59E5919BAD5630043E0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DA59E5B19BAD5630043E0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gogo Games/Gogo Games-Prefix.pch";
+				INFOPLIST_FILE = "Gogo Games/Gogo Games-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DA59E5C19BAD5630043E0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gogo Games/Gogo Games-Prefix.pch";
+				INFOPLIST_FILE = "Gogo Games/Gogo Games-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5DA59E5E19BAD5630043E0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gogo Games.app/Gogo Games";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gogo Games/Gogo Games-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gogo GamesTests/Gogo GamesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5DA59E5F19BAD5630043E0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gogo Games.app/Gogo Games";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gogo Games/Gogo Games-Prefix.pch";
+				INFOPLIST_FILE = "Gogo GamesTests/Gogo GamesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DA59E2319BAD5620043E0A7 /* Build configuration list for PBXProject "Gogo Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA59E5819BAD5630043E0A7 /* Debug */,
+				5DA59E5919BAD5630043E0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DA59E5A19BAD5630043E0A7 /* Build configuration list for PBXNativeTarget "Gogo Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA59E5B19BAD5630043E0A7 /* Debug */,
+				5DA59E5C19BAD5630043E0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DA59E5D19BAD5630043E0A7 /* Build configuration list for PBXNativeTarget "Gogo GamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA59E5E19BAD5630043E0A7 /* Debug */,
+				5DA59E5F19BAD5630043E0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DA59E2019BAD5620043E0A7 /* Project object */;
+}

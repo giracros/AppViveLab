@@ -1,0 +1,117 @@
+ [{
+  "title": "Dark Soul II",
+  "image": "DarkSoul2.png",
+  "release": "March 11, 2014",
+  "score": "9.5",
+  "features": [
+              "Player: 1",
+              "Network Players: 2-4",
+              "HD Space: 2048MB",
+              "HD Video Output: 720P",
+              "DualShock3"
+              ],
+  "descriptions": [
+                  "Dark Soul 2 is an action role-playing video game set in an open world environment. ",
+                  "It was developed for Play Station 3 by From Software.",
+                  "Taking place in the world of Drangleic, the game features both player versus environment(PvE) and player versus player(PvP) play, in addition to having some co-op components. As in the earlier games in the series, it once again features challenging gameplay, but with more powerfull graphics engine and more advanced AI system."
+                  ],
+  "screenshots": [
+                 "sc_ds2_001.png",
+                 "sc_ds2_002.png"
+                 ]
+  },
+  {
+  "title": "Gran Turismo 5",
+  "image": "GranTurismo5.png",
+  "release": "November 24, 2010",
+   "score": "9.2",
+  "features": [
+              "Player: 1-2",
+              "Network Players: 1-16",
+              "HD Space: 256MB",
+              "HD Video Output: 1080P",
+              "DualShock3",
+              "Headset",
+              "3D Game"
+              ],
+  "descriptions": [
+                  "Gran Turismo 5 is the fifth game in the Gran Turismo sim racing video game series.",
+                  "It was developed for Play Station 3 by Polyphony Digital.",
+                  "The game marks the first entry in the series with online races with support for up to 16 players. A damage model has been included with variations of damage depending on whether the vehicle falls into the standard or premium category. Over 1000 cars, 26 different locations, and 71 different tracks are available in the game. Night racing also returns.",
+                  "World Rally ChampionShip, NASCAR and Super GT licenses are utilized for the first time in the Gran Turismo series."
+                  ],
+  "screenshots": [
+                 "sc_gt5_001.png",
+                 "sc_gt5_002.png"
+                 ]
+  },
+  {
+  "title": "Bio Shock 2",
+  "image": "Bioshock2.png",
+  "release": "February 9, 2010",
+  "score": "9.0",
+  "features": [
+              "Player: 1",
+              "Network Players: 2-10",
+              "HD Space: 5GB",
+              "HD Video Output: 1080P",
+              "DualShock3",
+              "Headset",
+              "Broadband required"
+              ],
+  "descriptions": [
+                  "Bio Shock 2 is a first-person shooter video game.",
+                  "It was developed for Play Station 3 by 2K Marin.",
+                  "The game is set in the fictional underwater dystopia of Rapture. The game opens with a cutscene set in 1958 then jumps 10 years to when Delta wakes up in 1968, eight years after the events of the first BioShock. The protagonist and player-controlled character Big Daddy, named Subject Delta who was previously paired with a single Little Sister, reactivates with no recollection of the past decade´s events and scours the city in an attempt to relocate the Little Sister that was paired with. Fearing this reunion wil ruin her plans for the city, Sofia Lamb, the antagonist, sends out her spliced up followers that she calls The Rapture Family and new Big Sisters in an attemp to deter Delta."
+                  ],
+  "screenshots": [
+                 "sc_bs2_001.png",
+                 "sc_bs2_002.png"
+                 ]
+  },
+  {
+  "title": "PES 2012",
+  "image": "PES2012.png",
+  "release": "October 14, 2011",
+  "score": "8.4",
+  "features": [
+               "Player: 1-7",
+               "Network Players: 2-8",
+               "HD Space: 50MB",
+               "HD Video Output: 720P",
+               "DualShock3",
+               "Headset",
+               "PlayStation Eye Compatible",
+               "Broadband required"
+               ],
+  "descriptions": [
+                   "PES 2012 is a video game which is the eleventh edition in the Pro Evolution Soccer series.",
+                   "It was developed for Play Station 3 by Konami.",
+                   "Like previous versions of the game, it will be exclusively licensed by UEFA to contain the UEFA Champions League, UEFA Europa League and UEFA Super Cup competitions along with a license from CONMEBOL to feature the Copa Santander Libertadores. Referees' governing UEFA Champions League, UEFA Europa League and UEFA Super Cup matches will wear the official UEFA Champions League uniforms, which is a first for the series."
+                   ],
+  "screenshots": [
+                  "sc_pes2012_001.png",
+                  "sc_pes2012_002.png"
+                  ]
+  },
+  {
+  "title": "Uncharted",
+  "image": "Uncharted.png",
+  "release": "November 16, 2007",
+  "score": "8.9",
+  "features": [
+               "Player: 1",
+               "HD Space: 2.6MB",
+               "HD Video Output: 720P"
+               ],
+  "descriptions": [
+                   "Uncharted is an action-adventure third-person shooter platform video game series",
+                   "It was developed for Play Station 3 by Naughty Dog.",
+                   "Uncharted: Drake's Fortune, the first in the series, combines action-adventure and platform elements with a third-person perspective to chart the journey of protagonist Nathan Drake, supposed descendant of the explorer Sir Francis Drake, as he seeks the lost treasure of El Dorado in South America with the help of journalist Elena Fisher and mentor Victor Sully Sullivan, though they are pursued relentlessly by both pirates led by Eddy Raja and later on by a group of mercenaries led by Gabriel Roman and Atoq Navarro, the former whom Sully is indebted to."
+                   ],
+  "screenshots": [
+                  "sc_uncharted_001.png",
+                  "sc_uncharted_002.png"
+                  ]
+  }
+]
