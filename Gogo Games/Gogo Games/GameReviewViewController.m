@@ -157,7 +157,7 @@
 //Delegado
 -(void)userReviewViewControllerDismissed:(NSInteger)action userId:(NSString*)userID gameTitle:(NSString*)gameTitle gameScore:(NSString*)gameScore gameComment:(NSString*)gameComment {
     NSLog(@"Se llamo cuando se hizo dismiss del userreviewgamecontroller");
-    NSLog(@"Accion: %i",action);
+    NSLog(@"Accion: %li",(long)action);
     switch (action) {
         case 0: {
             NSLog(@"None");
@@ -166,7 +166,7 @@
         case 1: {
             NSLog(@"Insert");
             NSUInteger indexInsert = [_gameUsersReviews_User_ID count];
-            NSLog(@"%i",indexInsert);
+            NSLog(@"%lu",(unsigned long)indexInsert);
             [_gameUsersReviews_User_ID addObject:userID];
             [_gameUsersReviews_Game_Title addObject:gameTitle];
             [_gameUsersReviews_Game_Score addObject:gameScore];
@@ -183,7 +183,7 @@
         case 2: {
             NSLog(@"Update");
             NSUInteger indexUpdate = [_gameUsersReviews_User_ID indexOfObject:userID];
-            NSLog(@"%i",indexUpdate);
+            NSLog(@"%lu",(unsigned long)indexUpdate);
             
             //[_gameUsersReviews_User_ID replaceObjectAtIndex:indexUpdate withObject: userID];
             [_gameUsersReviews_Game_Title replaceObjectAtIndex:indexUpdate withObject:gameTitle];
@@ -199,7 +199,7 @@
         case 3: {
             NSLog(@"Delete");
             NSUInteger indexDelete = [_gameUsersReviews_User_ID indexOfObject:userID];
-            NSLog(@"%i",indexDelete);
+            NSLog(@"%lu",(unsigned long)indexDelete);
             if (!(indexDelete==NSNotFound)) {
                 
                 [_gameUsersReviews_User_ID removeObjectAtIndex:indexDelete];

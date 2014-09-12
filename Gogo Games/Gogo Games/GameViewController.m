@@ -92,7 +92,7 @@ GameReviewViewController * gameReview;
     UICollectionViewFlowLayout* flowLayout = (UICollectionViewFlowLayout*)self.featureCollectionView.collectionViewLayout;
     flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     flowLayout.itemSize = CGSizeMake(150, 20);
-    
+   self.descriptionGameTextView.backgroundColor = [UIColor clearColor];
     [self updateControlsWithGameData];
 }
 

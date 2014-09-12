@@ -11,4 +11,8 @@
 @interface GameViewController : UIViewController
 //Esta variable almacenera el dato del juego que se visualizara.
 @property (nonatomic,strong) NSDictionary* game;
+
+@property (strong, nonatomic) IBOutlet UITextView *descriptionGameTextView;
+
+
 @end
