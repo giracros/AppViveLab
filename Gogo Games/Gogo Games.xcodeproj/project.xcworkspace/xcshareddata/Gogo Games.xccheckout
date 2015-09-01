@@ -10,31 +10,31 @@
 	<string>Gogo Games</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C983627F-3E41-47FD-B959-ACD7AFA72BB7</key>
+		<key>31E1A921E9DD77180DF5A0A48B24CBE25C320A78</key>
 		<string>https://github.com/giracros/AppViveLab.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Gogo Games/Gogo Games.xcodeproj/project.xcworkspace</string>
+	<string>Gogo Games/Gogo Games.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C983627F-3E41-47FD-B959-ACD7AFA72BB7</key>
+		<key>31E1A921E9DD77180DF5A0A48B24CBE25C320A78</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/giracros/AppViveLab.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C983627F-3E41-47FD-B959-ACD7AFA72BB7</string>
+	<string>31E1A921E9DD77180DF5A0A48B24CBE25C320A78</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C983627F-3E41-47FD-B959-ACD7AFA72BB7</string>
+			<string>31E1A921E9DD77180DF5A0A48B24CBE25C320A78</string>
 			<key>IDESourceControlWCCName</key>
-			<string>FinalApp</string>
+			<string>AppViveLab</string>
 		</dict>
 	</array>
 </dict>
